@@ -1,0 +1,55 @@
+Titration Report,
+,
+,
+Titrator Name   , MIT__SG 
+Date            , Dec-15-2022 
+Time            , 16:07 
+Method Name     , TAlkv3_1121 
+Sample ID       , 1.72.3 
+Titrant Name    , HCl 
+Calibration Log # ,16
+Calibrate Date  , Dec-15-2022 
+Calibrate Time  , 10:47 
+Avg. Slope Value ,97.50%
+Titrant Conc.   , 0.09992 M
+Titrant Date    , Dec-14-2022 
+Titrant Time    , 10:12 
+Titr Technique  , Equivalence Pt. 
+Titration Type  , Direct Titration 
+Blank Required  , No 
+Reaction Ratio  ,1
+Sample Amount   , Variable Weight 
+Titrant Predose , 0.500 mL
+Titrant Max Vol , 20.000 mL
+Titrate Control , Routine 
+,
+,
+,
+Analysis Results,
+,
+Cycle Number    ,1
+Excluded        , No 
+Sample Amount   , 49.09 gram
+Sample Conc. 1  , 2.406 mmol/kg
+EP Volume 1     , 1.182 mL
+EP Value 1      , 115.4 mV
+Temperature     , 19.8 C
+Duration (Min)  , 00:03:07 
+,
+Cycle Number    ,2
+Excluded        , No 
+Sample Amount   , 48.90 gram
+Sample Conc. 1  , 2.474 mmol/kg
+EP Volume 1     , 1.211 mL
+EP Value 1      , 116.6 mV
+Temperature     , 21.0 C
+Duration (Min)  , 00:02:51 
+,
+,
+,
+Result Summary,
+,
+Average Conc. 1 , 2.440 mmol/kg
+RSD (1)         ,1.98%
+Temperature     , 20.4 C
+Duration (Min)  , 00:02:59 

@@ -1,0 +1,40 @@
+import pandas as pd
+import calkulate as calk
+#data = pd.read_excel("titration_table.xlsx")
+#data.to_excel("titration_table.xlsx",index=False)
+#data = calk.read_excel("titration_table.xlsx")#.calkulate()
+#data["salinity"]=34
+#data["analyte_mass"]=0.040
+#data["alkalinity_certified"]=2200
+#data["titrant_molinity"]=0.1
+print('~~~~')
+
+#data.calibrate()
+#data.solve()
+#print(data.solve())
+
+
+#print(data ['alkalinity'].to_string(index=False))
+
+
+#rint(data.alkalinity)
+
+
+data = pd.read_excel("Users\mjrin\Downloads\Calkulate_Testing_Folder\Titrations_Metadata.xlsx")
+data.to_excel("Users\mjrin\Downloads\Calkulate_Testing_Folder\Titrations_Metadata.xlsx",index=False)
+data = calk.read_excel("Users\mjrin\Downloads\Calkulate_Testing_Folder\Titrations_Metadata.xlsx")#.calkulate()
+#data["salinity"]=34
+#data["analyte_mass"]=0.040
+#data["alkalinity_certified"]=2200
+#data["titrant_molinity"]=0.1
+print('~~~~')
+
+data.calibrate()
+data.solve()
+#print(data.solve())
+
+
+#print(data ['alkalinity'].to_string(index=False))
+
+
+print(data.alkalinity)
